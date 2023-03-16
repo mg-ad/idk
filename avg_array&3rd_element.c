@@ -11,6 +11,7 @@ int main() {
     {
         m+=array[i];
     }
-    printf("the avg is %f",(m/5.0));
+    printf("the avg is %.2f\n",(m/5.00));
+    printf("the 3rd element of the array is %d",array[2]);
     return 0;
 }
