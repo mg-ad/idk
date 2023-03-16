@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int array[5],j,i,m=1;
+    
+    int j,i,m=1;
+    scanf("%d",&i);
+    int array[i]
     printf("enter the array content\n");
     for(j=0;j<5;j++)
     {
